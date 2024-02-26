@@ -1,0 +1,29 @@
+@import "../global.scss";
+
+.Book-Title {
+  text-align: center;
+  color: $main-text;
+  margin: 0;
+}
+
+.Book-Container {
+  width: 10%;
+  height: 12rem;
+  margin: 1rem;
+}
+
+.Book {
+  background-color:  $secondary-container-bg;
+  height: 100%;
+}
+
+.Book-Ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  color: $main-text;
+}
+
+
+
