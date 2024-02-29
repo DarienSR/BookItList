@@ -6,11 +6,8 @@ const App = () => {
 
   return (
     <>
-      <Header />
-      <div className="global-container">
-        <Find />
-        <Library />
-      </div>
+    <h1>Landing Page</h1>
+
     </>
   )
 }

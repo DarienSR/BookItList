@@ -20,9 +20,14 @@
 .Book-Ratings {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0rem 1rem;
   color: $main-text;
+}
+
+.Book-Indicator {
+  font-size: 1.5rem;
+  float: right;
 }
 
 

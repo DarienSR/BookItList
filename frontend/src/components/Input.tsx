@@ -33,7 +33,7 @@ const Input = (props: IInputProps) => {
   }
 
   return <span>
-    { header ? <label>{ header }</label> : null }
+    { header ? <label className="label">{ header }</label> : null }
     <input className="input"
       type = { type }
       id = { id }

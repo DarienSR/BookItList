@@ -13,7 +13,7 @@ export default function Books() {
   const [results, setResults] = useState<object>()
 
   const getBooks = async () => {
-    const data = await fetchData('books/');
+    const data = await fetchData('books/'); // TO DO: Switch this to books/recommended/:user_id
     setBookList(data);
   }
 
@@ -31,7 +31,7 @@ export default function Books() {
   })
 
   function PerformSearch() {
-    alert('Search performed ' + searchRef.current.value)
+    fetchData("/books/search")
   }
 
   return <>
