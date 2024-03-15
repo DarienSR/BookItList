@@ -5,6 +5,7 @@ import Book from "./Book.tsx"
 import "./books.scss"
 import Container from "../components/Container.tsx"
 import Input from "../components/Input.tsx"
+import { AxiosError } from "axios"
 
 export default function Books() {
   
@@ -28,7 +29,7 @@ export default function Books() {
       isbn = { book.isbn }
       key = { key }
     />
-  })
+  }) 
 
   function PerformSearch() {
     fetchData("/books/search")
